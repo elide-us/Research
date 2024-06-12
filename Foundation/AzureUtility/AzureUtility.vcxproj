@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="agenttime.c" />
+    <ClCompile Include="base32.c" />
+    <ClCompile Include="base64.c" />
+    <ClCompile Include="buffer.c" />
+    <ClCompile Include="condition_win32.c" />
+    <ClCompile Include="connection_string_parser.c" />
+    <ClCompile Include="consolelogger.c" />
+    <ClCompile Include="constbuffer.c" />
+    <ClCompile Include="constmap.c" />
+    <ClCompile Include="crt_abstractions.c" />
+    <ClCompile Include="doublylinkedlist.c" />
+    <ClCompile Include="gballoc.c" />
+    <ClCompile Include="gb_rand.c" />
+    <ClCompile Include="gb_stdio.c" />
+    <ClCompile Include="gb_time.c" />
+    <ClCompile Include="hmac.c" />
+    <ClCompile Include="hmacsha256.c" />
+    <ClCompile Include="httpapiex.c" />
+    <ClCompile Include="httpapiexsas.c" />
+    <ClCompile Include="httpapi_winhttp.c" />
+    <ClCompile Include="httpheaders.c" />
+    <ClCompile Include="http_proxy_io.c" />
+    <ClCompile Include="lock_win32.c" />
+    <ClCompile Include="map.c" />
+    <ClCompile Include="optionhandler.c" />
+    <ClCompile Include="platform_win32.c" />
+    <ClCompile Include="sastoken.c" />
+    <ClCompile Include="sha1.c" />
+    <ClCompile Include="sha224.c" />
+    <ClCompile Include="sha384-512.c" />
+    <ClCompile Include="singlylinkedlist.c" />
+    <ClCompile Include="socketio_win32.c" />
+    <ClCompile Include="strings.c" />
+    <ClCompile Include="string_tokenizer.c" />
+    <ClCompile Include="threadapi_win32.c" />
+    <ClCompile Include="tickcounter_win32.c" />
+    <ClCompile Include="tlsio_schannel.c" />
+    <ClCompile Include="uniqueid_win32.c" />
+    <ClCompile Include="urlencode.c" />
+    <ClCompile Include="usha.c" />
+    <ClCompile Include="utf8_checker.c" />
+    <ClCompile Include="uuid.c" />
+    <ClCompile Include="uws_client.c" />
+    <ClCompile Include="uws_frame_encoder.c" />
+    <ClCompile Include="vector.c" />
+    <ClCompile Include="wsio.c" />
+    <ClCompile Include="x509_schannel.c" />
+    <ClCompile Include="xio.c" />
+    <ClCompile Include="xlogging.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="agenttime.h" />
+    <ClInclude Include="base32.h" />
+    <ClInclude Include="base64.h" />
+    <ClInclude Include="buffer_.h" />
+    <ClInclude Include="condition.h" />
+    <ClInclude Include="connection_string_parser.h" />
+    <ClInclude Include="consolelogger.h" />
+    <ClInclude Include="constbuffer.h" />
+    <ClInclude Include="constmap.h" />
+    <ClInclude Include="crt_abstractions.h" />
+    <ClInclude Include="doublylinkedlist.h" />
+    <ClInclude Include="gballoc.h" />
+    <ClInclude Include="gb_rand.h" />
+    <ClInclude Include="gb_stdio.h" />
+    <ClInclude Include="gb_time.h" />
+    <ClInclude Include="hmac.h" />
+    <ClInclude Include="hmacsha256.h" />
+    <ClInclude Include="httpapi.h" />
+    <ClInclude Include="httpapiex.h" />
+    <ClInclude Include="httpapiexsas.h" />
+    <ClInclude Include="httpheaders.h" />
+    <ClInclude Include="http_proxy_io.h" />
+    <ClInclude Include="lock.h" />
+    <ClInclude Include="macro_utils.h" />
+    <ClInclude Include="map.h" />
+    <ClInclude Include="optimize_size.h" />
+    <ClInclude Include="optionhandler.h" />
+    <ClInclude Include="platform.h" />
+    <ClInclude Include="refcount.h" />
+    <ClInclude Include="refcount_os.h" />
+    <ClInclude Include="sastoken.h" />
+    <ClInclude Include="sha-private.h" />
+    <ClInclude Include="sha.h" />
+    <ClInclude Include="shared_util_options.h" />
+    <ClInclude Include="singlylinkedlist.h" />
+    <ClInclude Include="socketio.h" />
+    <ClInclude Include="stdint_ce6.h" />
+    <ClInclude Include="strings.h" />
+    <ClInclude Include="strings_types.h" />
+    <ClInclude Include="string_tokenizer.h" />
+    <ClInclude Include="string_tokenizer_types.h" />
+    <ClInclude Include="threadapi.h" />
+    <ClInclude Include="tickcounter.h" />
+    <ClInclude Include="tlsio.h" />
+    <ClInclude Include="tlsio_schannel.h" />
+    <ClInclude Include="umock_c_prod.h" />
+    <ClInclude Include="uniqueid.h" />
+    <ClInclude Include="urlencode.h" />
+    <ClInclude Include="utf8_checker.h" />
+    <ClInclude Include="uuid.h" />
+    <ClInclude Include="uws_client.h" />
+    <ClInclude Include="uws_frame_encoder.h" />
+    <ClInclude Include="vector.h" />
+    <ClInclude Include="vector_types.h" />
+    <ClInclude Include="vector_types_internal.h" />
+    <ClInclude Include="wsio.h" />
+    <ClInclude Include="x509_schannel.h" />
+    <ClInclude Include="xio.h" />
+    <ClInclude Include="xlogging.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{3A27B04C-2B7F-4E42-A5EC-A5641AEAC355}</ProjectGuid>
+    <SccProjectName>SAK</SccProjectName>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccProvider>SAK</SccProvider>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>AzureUtility</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)Output\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)Output\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

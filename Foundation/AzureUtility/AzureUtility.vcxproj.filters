@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\adapters">
+      <UniqueIdentifier>{65b990d2-17e8-49c2-9a73-85791d4b281a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pal">
+      <UniqueIdentifier>{62951516-8e5c-4d9a-8b4c-27df06935951}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pal\windows">
+      <UniqueIdentifier>{250da60a-81a5-4773-847e-feceedef1d01}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="condition_win32.c">
+      <Filter>Source Files\adapters</Filter>
+    </ClCompile>
+    <ClCompile Include="httpapi_winhttp.c">
+      <Filter>Source Files\adapters</Filter>
+    </ClCompile>
+    <ClCompile Include="lock_win32.c">
+      <Filter>Source Files\adapters</Filter>
+    </ClCompile>
+    <ClCompile Include="platform_win32.c">
+      <Filter>Source Files\adapters</Filter>
+    </ClCompile>
+    <ClCompile Include="socketio_win32.c">
+      <Filter>Source Files\adapters</Filter>
+    </ClCompile>
+    <ClCompile Include="threadapi_win32.c">
+      <Filter>Source Files\adapters</Filter>
+    </ClCompile>
+    <ClCompile Include="tickcounter_win32.c">
+      <Filter>Source Files\adapters</Filter>
+    </ClCompile>
+    <ClCompile Include="uniqueid_win32.c">
+      <Filter>Source Files\adapters</Filter>
+    </ClCompile>
+    <ClCompile Include="base32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="base64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="buffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="connection_string_parser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="consolelogger.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="constbuffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="constmap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="crt_abstractions.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="doublylinkedlist.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gb_rand.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gb_stdio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gb_time.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gballoc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hmac.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hmacsha256.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="http_proxy_io.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="httpapiex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="httpapiexsas.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="httpheaders.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="optionhandler.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sastoken.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sha1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sha224.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sha384-512.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="singlylinkedlist.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="string_tokenizer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="strings.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tlsio_schannel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="urlencode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="usha.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utf8_checker.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="uuid.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="uws_client.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="uws_frame_encoder.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vector.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wsio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="x509_schannel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xlogging.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="agenttime.c">
+      <Filter>Source Files\adapters</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="xlogging.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="x509_schannel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wsio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_types_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="uws_frame_encoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="uws_client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="uuid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utf8_checker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="urlencode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="uniqueid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="umock_c_prod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tlsio_schannel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tlsio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tickcounter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="threadapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="strings_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="strings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="string_tokenizer_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="string_tokenizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdint_ce6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="socketio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="singlylinkedlist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shared_util_options.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sha-private.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sha.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sastoken.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="refcount.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="optionhandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="optimize_size.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="macro_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="httpheaders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="httpapiexsas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="httpapiex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="httpapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="http_proxy_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hmacsha256.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hmac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gballoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gb_time.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gb_stdio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gb_rand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="doublylinkedlist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="crt_abstractions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="constmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="constbuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="consolelogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="connection_string_parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="condition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="buffer_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="base64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="base32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="agenttime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="refcount_os.h">
+      <Filter>pal\windows</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
